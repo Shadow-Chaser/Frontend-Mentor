@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.attribution {
+    min-height: 2vh;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body {
+
+    background: url(./images/pattern-background-desktop.svg) no-repeat;
+    background-color: rgb(230, 230, 230);
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+main {
+    width: 100%;
+    min-height: 97vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    /* border: 5px solid red; */
+    width: 50vh;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+
+}
+
+
+.hero-image {
+    width: 50vh;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    margin: 10px 0 5px 0;
+    /* color: hsl(224, 23%, 55%); */
+}
+
+.description {
+    text-align: center;
+    font-size: 10px;
+    margin: 5px 50px 10px 50px;
+    color: gray;
+
+}
+
+.plan {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 30px;
+    background: rgb(247, 244, 244);
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    align-self: center;
+}
+
+.change-btn {
+    align-self: center;
+    padding-left: 20px;
+}
+
+.change-btn:hover {
+    text-decoration: none;
+    opacity: .7;
+}
+
+.btn-cta,
+.cancel-btn {
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+.btn-cta {
+    margin-bottom: 30px;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 9px;
+    background: hsl(225, 75%, 52%);
+    color: white;
+    font-weight: 700;
+    box-shadow: 10px 10px 10px lightgray;
+}
+
+.btn-cta:hover {
+    opacity: 0.7;
+}
+
+.cancel-btn {
+    margin-bottom: 40px;
+    border: none;
+    background: none;
+    color: gray;
+    font-weight: 700;
+}
+
+.cancel-btn:hover {
+    color: black;
+}
